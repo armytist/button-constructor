@@ -1,0 +1,53 @@
+body {
+   font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 12px;
+    margin: o auto;
+}
+
+.example {
+    padding: 100px 0;
+    margin: 100px auto;
+    background-color: bisque;
+}
+
+.example-title {
+    margin-bottom: 48px;
+    font-size: 36px;
+}
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.g-1 {
+    gap: 12px;
+}
+
+.g-2 {
+    gap: 24px;  
+}
+
+.g-3 {
+    gap: 36px;   
+}
+
+.g-4 {
+    gap: 48px;
+}
+
+.g-5 {
+    gap: 60px;  
+}
